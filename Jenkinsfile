@@ -1,7 +1,7 @@
 node {
     stage('Code Checkout') {
         echo 'Code checkout from the git repo'
-        git 'https://github.com/Gulajkar-sham23/php-application.git'
+        git 'https://github.com/Gulajkar-sham23/php-application'
     }
 
     stage('Building the application') {
